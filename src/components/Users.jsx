@@ -17,7 +17,7 @@ const generateRandomIP = () => {
 
 // Function to generate random signup time
 const generateRandomSignupTime = () => {
-  const start = new Date(2025, 04, 25); // Starting date for random signup time
+  const start = new Date(2025, 03, 25); // Starting date for random signup time
   const end = new Date(); // Current date
   return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
 };
